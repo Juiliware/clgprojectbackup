@@ -1,0 +1,61 @@
+
+#fullPageCarousel {
+    height: 60vh; 
+}
+
+.carousel-item {
+    height: 60vh; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.carousel-caption {
+    bottom: 20%;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); 
+}
+/* search bar start */
+.search-bar {
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 70%; 
+    z-index: 10;
+}
+
+
+/* search bar end */
+.owl-carousel .item {
+    padding: 15px;
+}
+
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+/* Additional styles for cards */
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+/* Optional: Style for card image */
+.card-img-top {
+    height: 200px; 
+    object-fit: cover;
+}
